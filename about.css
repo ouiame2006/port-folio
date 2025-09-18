@@ -1,0 +1,154 @@
+ 
+ nav{
+      padding: 10px 20px;
+    }
+
+    nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    nav ul li{
+      margin-right: 20px;
+      background-image: url(téléchargement\ \(1\).png);
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      transition: color 0.3s;
+      
+    }
+
+    nav ul li a:hover{
+      color: #ffd900;
+    }
+
+     img {
+    width: 524px;
+    height: 524px;
+    top: 94px;
+    left: 796px;
+    opacity: 1;
+    margin-left: 20%;}
+
+
+   h2{
+  border-bottom: 2px solid #ffd900;
+  display: inline-block;
+  padding-bottom: 4px; 
+  font-family: Playfair Display;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+h1{
+ 
+  display: inline-block;
+  padding-bottom: 4px; 
+  font-family: Playfair Display;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+
+   form{
+      max-width: 400px;
+      margin: 30px auto;
+      text-align: left;
+      
+    }
+
+    .form-control{
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .btn-send{
+      background: #f9c22e;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 20px;
+      font-weight: bold;
+    }
+
+    .btn-send:hover{
+      background: #f7b500;
+    }
+
+button{ width: 89px;
+height: 43px;
+
+opacity: 1;
+border-radius: 8px;
+padding-top: 8px;
+padding-right: 24px;
+padding-bottom: 8px;
+padding-left: 24px;}
+
+
+ .social-row{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .social-row a img{
+    width: 48px; 
+    height: 48px;
+    
+    transition: transform 0.2s ease,
+  }
+  .social-row a img:hover{
+    transform: scale(1.1);
+    
+  }
+
+#vector{
+  width: 1530px;
+height: 344px;
+top: 660px;
+
+opacity: 1;
+
+
+} 
+ 
+.mm {
+  width: 350px; 
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+}
+ 
+.nn {
+  width: 350px;  
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 48%; 
+  left: 45%;
+  transform: translate(-50%, -50%);  
+  z-index: 2; 
+}
+
+
+
+
+   

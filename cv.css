@@ -1,0 +1,117 @@
+ 
+ nav{
+      padding: 10px 20px;
+    }
+
+    nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    nav ul li{
+      margin-right: 20px;
+      background-image: url(téléchargement\ \(1\).png);
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      transition: color 0.3s;
+      
+    }
+
+    nav ul li a:hover{
+      color: #ffd900;
+    }
+    /* hero section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 40px;
+      padding: 20px 40px;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .hero-text h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .hero-buttons .btn {
+      margin-right: 10px;
+    }
+
+    .hero-photo {
+      flex: 1;
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-photo img.photo {
+      width: 320px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-photo img.bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 380px;
+      z-index: 1;
+    }
+
+    /* section projets */
+    section {
+      padding: 60px 20px;
+    }
+
+    section h2 {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .card img {
+      object-fit: cover;
+      height: 100%;
+    }
+
+    /* contact form */
+    #contact {
+      margin-bottom: 20px;
+    }
+
+    form .btn {
+      background-color: #ffc107;
+      border: none;
+    }
+
+    /* social icons */
+    .social-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .social-row img {
+      width: 30px;
+    }
+
+    footer {
+      background: white;
+      padding: 20px;
+      font-weight: 500;
+    }
+   
